@@ -1,3 +1,6 @@
+//synchronous code ===running line by line
+
+
 function sum(a,b){
     return a+b;
 }
