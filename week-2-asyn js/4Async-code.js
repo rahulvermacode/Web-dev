@@ -1,21 +1,16 @@
-class Rectangle {
-   constructor(width, height, color) {
-	    this.width = width;
-	    this.height = height;
-	    this.color = color; 
-   }
-   
-   area() {
-	   const area = this.width * this.height;
-		 return area;
-   }
-   
-   paint() {
-			console.log(`Painting with color ${this.color}`);
-   }
-   
-}
+console.log("hello1");
 
-const rect = new Rectangle(2, 4)
-const area = rect.area();
-console.log(area)
+
+
+function hello(){
+   console.log("hellow2");
+}
+setTimeout(hello,4000);
+//also we can write the above code as
+setTimeout(()=>{console.log("hellow2");},   5000);
+
+
+
+
+
+console.log("helow 3");
